@@ -12,11 +12,11 @@ while(True):
         break
     for i in range(len(number)):
         if number[i]==guess[i]:
-            cow = cow + 1
+            cow += 1
         else:
             for j in range(len(number)):
                 if number[i]==guess[j]:
-                    bull = bull + 1
+                    bull += 1
                     break
     print("Cows = ", end='')
     print(cow)
